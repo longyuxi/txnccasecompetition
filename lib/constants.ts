@@ -74,6 +74,10 @@ export const NAVIGATION = [
   //   route: '/jobs'
   // }
   {
+    name: 'Home',
+    route: '/'
+  },
+  {
     name: 'Our Committee',
     route: '/committee'
   }
