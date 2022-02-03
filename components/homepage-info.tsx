@@ -21,6 +21,7 @@ import contentstyles from './homepage-info.module.css';
 import Break from './break';
 import { REPO } from '@lib/constants';
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function Info() {
   return (
@@ -34,12 +35,13 @@ export default function Info() {
       <div className={cn(contentstyles.maintext)}>
         <div className={cn(contentstyles.emph)}>
           <p>CASE COMPETITION: Register for the 2022 Texas-North Carolina Competition</p>
+          <p> (<Link href='https://docs.google.com/forms/d/e/1FAIpQLSfDXuflOuNSg5AGnTkq0NcIa4lYW5ilw3XINy9wWgStrd4m2w/viewform'>Group Registration</Link>) (<Link href='https://docs.google.com/spreadsheets/d/1pLhmPJqd_oF7pGFv5ocHhEyvSCw3s5aCvk6d4pK4GGw/edit?usp=sharing'>Look for team</Link>)</p>
         </div>
         <Break />
 
         <p>
           The Duke Advanced Professional Degree Consulting Club (APDCC), UNC Graduate Business and Consulting Club (GBCC), and the Consulting Club at Texas Medical Center will be co-hosting the 2022 Texas-North Carolina Competition virtually on Friday, April 22, 2022. You may <Link href='https://docs.google.com/forms/d/e/1FAIpQLSfDXuflOuNSg5AGnTkq0NcIa4lYW5ilw3XINy9wWgStrd4m2w/viewform'> register </Link>
-          as a team of 3-5 people with a maximum of 1 MBA student per team, or you may register as an individual, in which case we will help you to find a team.
+          as a team of 3-5 people with a maximum of 1 MBA student per team, or you may <Link href='https://docs.google.com/spreadsheets/d/1pLhmPJqd_oF7pGFv5ocHhEyvSCw3s5aCvk6d4pK4GGw/edit?usp=sharing'>register</Link> as an individual, in which case we will help you to find a team.
         </p>
         <Break />
 
@@ -61,6 +63,23 @@ export default function Info() {
 
         <p>
           Our competition will bring together graduate students (Master’s, PhD, JD, MD) and provide them the opportunity to apply their analytical skills and creativity in a real-world context, by solving a real-world business problem. For introductory material about business cases, see the lecture series from the Duke APDCC here. They will also have the opportunity to learn about the field of consulting from and network with consultants currently working for a number of firms, including McKinsey, BCG, Bain, and many others, and to meet other students looking to make the transition from advanced degrees to consulting.</p>
+        <Break />
+
+        <div className={cn(contentstyles.emph)}>
+            <p>Hosted by :</p>
+          <Image src='/dukecc-logo.png'
+            alt="Duke"
+            width={200}
+            height={100} />
+          <Image src='/tmccc-logo-whitebg.png'
+            alt="Texas"
+            width={200}
+            height={100} />
+          <Image src='/unccc-logo.png'
+            alt="UNC"
+            width={200}
+            height={100} />
+        </div>
 
       </div>
     </div>

@@ -22,7 +22,7 @@ export const SITE_NAME_MULTILINE = ['TX-NC', 'Case', 'Competition'];
 export const SITE_NAME = 'TX-NC Case Competition';
 // Don't know what this META_DESCRIPTION is
 export const META_DESCRIPTION =
-  'Case competition';
+  '2022 Texas-North Carolina Competition';
 export const SITE_DESCRIPTION =
   'An excellent platform for graduate and professional students to showcase their consulting skills.';
 export const DATE = 'Friday, April 22, 2022';
@@ -41,37 +41,41 @@ export const CODE_OF_CONDUCT =
 export const REPO = 'https://github.com/longyuxi/txnccasecompetition';
 export const SAMPLE_TICKET_NUMBER = 1234;
 export const NAVIGATION = [
+  // {
+  //   name: 'Stage A',
+  //   route: '/stage/a'
+  // },
+  // {
+  //   name: 'Stage C',
+  //   route: '/stage/c'
+  // },
+  // {
+  //   name: 'Stage M',
+  //   route: '/stage/m'
+  // },
+  // {
+  //   name: 'Stage E',
+  //   route: '/stage/e'
+  // },
+  // {
+  //   name: 'Schedule',
+  //   route: '/schedule'
+  // },
+  // {
+  //   name: 'Speakers',
+  //   route: '/speakers'
+  // },
+  // {
+  //   name: 'Expo',
+  //   route: '/expo'
+  // },
+  // {
+  //   name: 'Jobs',
+  //   route: '/jobs'
+  // }
   {
-    name: 'Stage A',
-    route: '/stage/a'
-  },
-  {
-    name: 'Stage C',
-    route: '/stage/c'
-  },
-  {
-    name: 'Stage M',
-    route: '/stage/m'
-  },
-  {
-    name: 'Stage E',
-    route: '/stage/e'
-  },
-  {
-    name: 'Schedule',
-    route: '/schedule'
-  },
-  {
-    name: 'Speakers',
-    route: '/speakers'
-  },
-  {
-    name: 'Expo',
-    route: '/expo'
-  },
-  {
-    name: 'Jobs',
-    route: '/jobs'
+    name: 'Our Committee',
+    route: '/committee'
   }
 ];
 
