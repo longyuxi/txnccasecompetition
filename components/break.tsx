@@ -14,19 +14,11 @@
  * limitations under the License.
  */
 
-import cn from 'classnames';
-import styleUtils from './utils.module.css';
-import styles from './contact.module.css';
-import { REPO } from '@lib/constants';
-
-export default function LearnMore() {
+export default function Break() {
   return (
-    <div className={cn(styleUtils.appear, styleUtils['appear-fifth'], styles.contact)}>
-      Source code on {' '}
-      <a href={REPO} className={styles['contact-email']} target="_blank" rel="noopener noreferrer">
-        GitHub
-      </a>
-      .
+    <div>
+      <br></br>
     </div>
+
   );
 }
