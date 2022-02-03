@@ -27,7 +27,7 @@ export function HostedByVercel() {
       target="_blank"
       rel="noopener noreferrer"
     >
-      <div className={styles['secondary-text']}>Created by </div>
+      <div className={styles['secondary-text']}>Hosted by </div>
       <VercelLogo color="white" />
     </a>
   );
@@ -56,7 +56,7 @@ export default function Footer() {
               Source Code
             </a>
           </p>
-          <div className={styles['footer-separator']} />
+          {/* <div className={styles['footer-separator']} />
           <p className={styles['footer-paragraph']}>
             <a
               href={CODE_OF_CONDUCT}
@@ -66,7 +66,7 @@ export default function Footer() {
             >
               Code of Conduct
             </a>
-          </p>
+          </p> */}
           {LEGAL_URL && (
             <>
               <div className={styles['footer-separator']} />
