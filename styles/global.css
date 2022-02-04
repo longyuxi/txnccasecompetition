@@ -94,8 +94,8 @@ body {
 }
 html,
 body {
-  color: #fff;
-  background-color: #111;
+  color: rgb(0, 0, 0);
+  background-color: rgb(255, 255, 255);
 }
 ::selection {
   background-color: #0070f3;
