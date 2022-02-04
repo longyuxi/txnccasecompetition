@@ -36,3 +36,7 @@
 .maintext{
   margin-bottom: 25px;
 }
+
+.maintext a{
+  color: var(--brand);
+}
